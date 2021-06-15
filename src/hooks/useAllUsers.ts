@@ -31,5 +31,7 @@ export const useAllUsers = () => {
         setLoading(false);
       });
   };
+  //配列で返す場合とオブジェクトで返す場合の２通りある。
+  //今回はオブジェクトで返している
   return { getUsers, userProfiles, loading, error };
 };
